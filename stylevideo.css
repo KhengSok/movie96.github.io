@@ -1,0 +1,43 @@
+*{
+    
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+body{
+    background: gray;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+}
+.container .mainvideo{
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.container .mainvideo video{
+    width: 100%;
+    border-radius: 5px;
+}
+.container.mainvideo .title{
+    color: black;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container .videolist{
+    background: #fff;
+    border-radius: 5px;
+    height: 520px;
+    overflow-y: scroll;
+}
+.container .videolist .vid video{
+    width: 100px;
+    border-radius: 5px;
+}
